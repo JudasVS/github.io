@@ -774,35 +774,35 @@
   }
 
   .europe {
-    background: url(../img/europe_m.png)no-repeat center top/auto;
+    background: url(../img/europe_m.png)no-repeat center top/contain;
   }
 
   .music {
-    background: url(../img/Music_m.png)no-repeat center top/auto;
+    background: url(../img/Music_m.png)no-repeat center top/contain;
   }
 
   .people {
-    background: url(../img/People_m.png)no-repeat center top/auto;
+    background: url(../img/People_m.png)no-repeat center top/contain;
   }
 
   .hello {
-    background: url(../img/Hello_m.png)no-repeat center top/auto;
+    background: url(../img/Hello_m.png)no-repeat center top/contain;
   }
 
   .everything {
-    background: url(../img/Everything_m.png)no-repeat center top/auto;
+    background: url(../img/Everything_m.png)no-repeat center top/contain;
   }
 
   .color {
-    background: url(../img/Color_m.png)no-repeat center top/auto;
+    background: url(../img/Color_m.png)no-repeat center top/contain;
   }
 
   .sound {
-    background: url(../img/Sound_m.png)no-repeat center top/auto;
+    background: url(../img/Sound_m.png)no-repeat center top/contain;
   }
 
   .etiquette {
-    background: url(../img/Etiquette_m.png)no-repeat center top/auto;
+    background: url(../img/Etiquette_m.png)no-repeat center top/contain;
   }
 
   .broadcasts__container-left {
