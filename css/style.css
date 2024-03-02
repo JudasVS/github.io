@@ -1074,6 +1074,14 @@ body {
   height: 24px;
 }
 
+.footer-1110 {
+  display: block;
+}
+
+.footer-320 {
+  display: none;
+}
+
 .footer__container-right {
   width: 40.3%;
 }

@@ -1,3 +1,18 @@
+:root {
+  --white-color: #FFF;
+  --light-grey-color: #E6E8EC;
+  --grey-color: #A1A6B4;
+  --dark-grey-color: #292E39;
+  --black-color: #121723;
+  --lilac-color: #AA9DFA;
+  --purple-color: #6D31EE;
+  --dark-purple-color: #4F28A5;
+  --gold-color: #F0D288;
+  --braun-color: #BB973E;
+  --red-color: #D52B1E;
+  --indend30: 30px;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 1024px;
@@ -472,7 +487,7 @@
 
   .radio {
     padding-top: 53px;
-    padding-bottom: 94.5px;
+    padding-bottom: 93.5px;
   }
 
   .radio__container {
@@ -512,7 +527,7 @@
 
   .about__content {
     padding-right: 0;
-    padding-bottom: 143.9px;
+    padding-bottom: 143.5px;
     background: url(../img/about_768.svg) no-repeat 100% 93%/121%;
   }
 
@@ -583,7 +598,7 @@
   }
 
   .footer__container-left {
-    margin-bottom: 73.5px;
+    margin-bottom: 74.3px;
   }
 
   .footer__social-link:not(:last-child) {
@@ -647,8 +662,7 @@
   }
 
   .broadcasts__container-right {
-    padding-top: 16.5px;
-    padding-bottom: 31px;
+    padding-bottom: 30px;
   }
 
   .broadcasts__item-title {
@@ -686,7 +700,7 @@
 
   .footer__nav {
     justify-content: flex-start;
-    row-gap: 17.6px;
+    row-gap: 17.5px;
     column-gap: 11px;
     max-height: 164px;
   }
@@ -771,6 +785,8 @@
 
   .podcasts__date {
     bottom: 169px;
+    min-height: 16px;
+    line-height: 16px;
   }
 
   .europe {
@@ -807,13 +823,13 @@
 
   .broadcasts__container-left {
     padding-top: 54px;
-    padding-bottom: 12px;
+    padding-bottom: 27px;
   }
 
   .archive {
     display: flex;
     flex-direction: column-reverse;
-    padding: 30px 5px 54px 102px;
+    padding: 30px 5px 54.5px 102px;
     font-size: 14px;
     background-position: 5% 36%;
     background-size: 13.8%;
@@ -833,7 +849,7 @@
 
   .guests {
     padding-top: 54px;
-    padding-bottom: 48px;
+    padding-bottom: 47px;
   }
 
   .guests__title {
@@ -872,7 +888,7 @@
   }
 
   .playlists__container-left {
-    padding-top: 53px;
+    padding-top: 53.5px;
   }
 
   .playlists__title {
@@ -880,6 +896,7 @@
   }
 
   .playlists__text {
+    margin-bottom: 4px;
     font-size: 12px;
     line-height: 16.5px;
   }
@@ -889,8 +906,8 @@
     font-size: 12px;
   }
 
-  .playlists__text {
-    margin-bottom: 4px;
+  .playlists__list {
+    row-gap: 30.5px;
   }
 
   .playlists__img {
@@ -902,11 +919,12 @@
   }
 
   .radio__container {
-    padding-top: 274px;
+    padding-top: 263px;
     background: url(../img/radio_m.png)no-repeat center top/79%;
   }
 
   .radio__title {
+    margin-bottom: 8.5px;
     width: 100%;
     line-height: 102%;
   }
@@ -921,8 +939,13 @@
     font-size: 24px;
   }
 
+  .radio__vector {
+    margin-bottom: 19.5px;
+    width: 430px;
+  }
+
   .text-2 {
-    margin-bottom: 11px;
+    margin-bottom: 10.5px;
   }
 
   .radio__btn {
@@ -974,7 +997,7 @@
   }
 
   .about__container-up {
-    margin-bottom: 29.5px
+    margin-bottom: 29px
   }
 
   .form__textarea {
@@ -1014,6 +1037,17 @@
     left: 23px;
   }
 
+  .footer-1110 {
+    display: none;
+  }
+
+  .footer-320 {
+    display: block;
+    width: auto;
+    padding: 28px 32px 27px 31.5px;
+    background-color: var(--black-color);
+  }
+
   .footer {
     padding-top: 53.5px;
   }
@@ -1023,7 +1057,7 @@
   }
 
   .footer__container-left {
-    margin-bottom: 74.5px
+    margin-bottom: 13.5px
   }
 
   .footer__logo {
@@ -1037,6 +1071,7 @@
   .footer__svg {
     width: 2479px;
     margin-bottom: 0;
+    padding-top: 8.5px;
   }
 
   .footer-registered {
@@ -1047,6 +1082,6 @@
 @media (max-width: 385px) {
 
   .archive {
-    background-size: 23.6%;
+    background-size: 23.7%;
   }
 }
