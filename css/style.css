@@ -141,16 +141,13 @@ body {
 
 .container__logo-nav {
   justify-content: space-between;
-  width: 78.2%;
+  width: 79.2%;
 }
 
 .header__logo {
   display: inline-block;
   width: 160px;
-}
-
-.header__nav {
-  width: 72.6%;
+  margin-right: 10px;
 }
 
 .header__nav-1024 {
@@ -682,7 +679,10 @@ body {
 }
 
 .radio__vector {
+  width: 100%;
+  height: 12px;
   margin-bottom: 20.5px;
+  background: url(../img/Vector.svg) repeat-x left/auto 100%;
 }
 
 .radio__text {
@@ -1115,13 +1115,14 @@ body {
   background-color: inherit;
 }
 
-.footer__svg {
-  max-width: 2895px;
-  margin-bottom: 4px;
-}
-
 .footer__container-bottom {
   text-align: center;
+}
+
+.footer-vector {
+  height: 12px;
+  margin-bottom: 10px;
+  background: url(../img/footer_vector.svg) repeat center/auto 100%;
 }
 
 .footer-registered {
