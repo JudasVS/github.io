@@ -83,7 +83,7 @@
 
   .broadcasts__list {
     --offsets: 1;
-    column-gap: 26.5px;
+    column-gap: 26.4px;
     row-gap: 29px;
   }
 
@@ -461,7 +461,7 @@
   }
 
   .playlists__list {
-    column-gap: 26.5px;
+    column-gap: 26.4px;
     --offsets: 1;
   }
 
